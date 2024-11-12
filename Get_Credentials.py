@@ -84,7 +84,7 @@ def env_config(env):
             "sfUrl": "<snowflake_azure_url>",
             "sfUser": "<snowflake_PROD_service_account_username>",
             "sfPassword": get_keyvault_secret(scope_name="<scope_name>", key_name="<PROD_key_name>"),
-            "sfDatabase": "MKT_DB",
+            "sfDatabase": "<PROD_DB_NAME>",
             "sfSchema": "<snowflake_QA_Schema_name>",
             "sfWarehouse": "<snowflake_warehouse_name>",
             "sfRole": "<snowflake_PROD_service_account_username>_ROLE",
